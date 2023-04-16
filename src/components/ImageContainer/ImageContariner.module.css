@@ -1,0 +1,24 @@
+.container {
+  margin: 5vh auto;
+}
+.container_img {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 3vh;
+}
+.container_img_big_size {
+  height: 70vh;
+}
+.container_img_image {
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius);
+}
+.container_img_image_event:hover {
+  cursor: pointer;
+  opacity: var(--opacity);
+  transition: var(--transition);
+}

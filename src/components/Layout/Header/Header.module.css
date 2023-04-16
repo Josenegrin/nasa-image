@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5vw;
+}
+.header_logo {
+  width: max-content;
+}
+.header_nav {
+  text-transform: uppercase;
+}
+.header_nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header_nav ul li {
+  margin: 0 2vw;
+}
+.header_nav ul li:hover {
+  font-weight: 900;
+  opacity: 0.7;
+  transition: oapcity 0.3s ease-in-out;
+}
+.active {
+  font-weight: 900;
+}
